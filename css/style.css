@@ -13,6 +13,9 @@ body {
     background-color: rgb(37, 106, 255);
 }
 
+/* ###########################################################
+                            NAV
+########################################################### */
 nav {
     background-color: rgb(0, 26, 255);
     display: flex;
@@ -40,18 +43,23 @@ nav {
 .nav__telefono img, .nav__whatsapp img {
     height: 20px;
 }
+
+/* ###########################################################
+                            BOTONERA
+########################################################### */
 .botonera__container{
     width: 100vw;
     height: calc(100vh - 67px);
+    padding: 20px;
+    
     display: flex;
 }
 .botonera {
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     gap: 20px;
-    max-width: 620px;
+    width: 400px;
 }
 .botonera__boton{
     width: 350px;
@@ -60,10 +68,10 @@ nav {
     color: #fff;
     padding: 10px;
 }
-.botonera__boton:nth-child(2){background-color: rgb(255, 0, 0);}
-.botonera__boton:nth-child(3){background-color: rgb(0, 141, 7);}
-.botonera__boton:nth-child(4){background-color: rgb(121, 0, 81);}
-.botonera__boton:nth-child(5){background-color: rgb(99, 121, 0);}
+.botonera__boton:nth-child(2) {background-color: rgb(255, 0, 0);}
+.botonera__boton:nth-child(3) {background-color: rgb(0, 141, 7);}
+.botonera__boton:nth-child(4) {background-color: rgb(121, 0, 81);}
+.botonera__boton:nth-child(5) {background-color: rgb(99, 121, 0);}
 
 .botonera__boton:hover{
     cursor: pointer;
@@ -75,4 +83,15 @@ nav {
 }
 .botonera__boton_subtitulo{
     padding-top: 5px;
+}
+
+/* ###########################################################
+                            BOTONERA
+########################################################### */
+.banner {
+    width: calc(100vw - 370px);
+    height: 100%;
+    background-image: url("../img/imprenta.jpg");
+    background-size: cover;
+    background-position: center;
 }
