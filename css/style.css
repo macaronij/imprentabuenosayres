@@ -34,6 +34,7 @@ nav {
 }
 #logo {
     width: 450px;
+    cursor: pointer;
 }
 
 .nav__telefono, .nav__whatsapp {
@@ -91,7 +92,14 @@ nav {
 .banner {
     width: calc(100vw - 370px);
     height: 100%;
+    background-color: blue;
     background-image: url("../img/imprenta.jpg");
     background-size: cover;
     background-position: center;
 }
+
+.banner__talonarios {background-image: url("../img/talonarios1.jpg");}
+.banner__volantes {background-image: url("../img/volantes.jpg");}
+.banner__tarjetas {background-image: url("../img/tarjetas.jpg");}
+.banner__trabajos {background-image: url("../img/trabajos.jpg");}
+.banner__presupuestos {background-image: url("../img/presupuestos.jpg");}
