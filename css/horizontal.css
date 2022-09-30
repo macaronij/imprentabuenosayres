@@ -1,0 +1,54 @@
+/* ###########################################################
+                            BOTONERA horizontal
+########################################################### */
+.botonera__container_horizontal{
+    width: 100vw;
+    height: calc(100vh - 67px);
+    /* padding: 20px; */
+    display: flex;
+}
+.botonera__horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+    width: 400px;
+}
+.botonera__boton{
+    width: 350px;
+    height: 80px;
+    background-color: rgba(0, 4, 255, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+.botonera__boton:nth-child(2) {background-color: rgb(255, 0, 0);}
+.botonera__boton:nth-child(3) {background-color: rgb(0, 141, 7);}
+.botonera__boton:nth-child(4) {background-color: rgb(121, 0, 81);}
+.botonera__boton:nth-child(5) {background-color: rgb(99, 121, 0);}
+
+.botonera__boton:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+
+.botonera__boton_titulo{
+    font-size: 30px;
+}
+.botonera__boton_subtitulo{
+    padding-top: 5px;
+}
+
+.banner__horizontal {
+    width: calc(100vw - 370px);
+    height: 100%;
+    background-color: blue;
+    background-image: url("../img/imprenta.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__talonarios {background-image: url("../img/talonarios1.jpg");}
+.banner__volantes {background-image: url("../img/volantes.jpg");}
+.banner__tarjetas {background-image: url("../img/tarjetas.jpg");}
+.banner__trabajos {background-image: url("../img/trabajos.jpg");}
+.banner__presupuestos {background-image: url("../img/presupuestos.jpg");}
